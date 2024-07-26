@@ -1,4 +1,3 @@
-import React from 'react'
 import './chatPage.css'
 
 const ChatPage = () => {
