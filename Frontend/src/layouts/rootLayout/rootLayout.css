@@ -22,5 +22,8 @@
 
     main{
         background-color: blue;
+        flex: 1;
+        overflow: hidden;
+        
     }
 }
