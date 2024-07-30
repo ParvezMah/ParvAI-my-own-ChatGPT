@@ -1,6 +1,8 @@
 .rootLayout{
     padding: 16px 64px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     header{
         display: flex;
@@ -23,6 +25,5 @@
     main{
         flex: 1;
         overflow: hidden;
-        
     }
 }
