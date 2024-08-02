@@ -29,33 +29,7 @@ const ChatPage = () => {
           <div className="message user">Test message from User</div>
           <div className="message">Test message from AI</div>
           <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
-          <div className="message">Test message from AI</div>
-          <div className="message user">Test message from User</div>
           <NewPrompt/>
-          {/* For automting scroll down updating chat. */}
-==
         </div>
       </div>
     </div>
