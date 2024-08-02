@@ -1,7 +1,6 @@
-import React from "react";
-import "./rootLayout.css";
+import { ClerkProvider, SignedIn, UserButton } from "@clerk/clerk-react";
 import { Link, Outlet } from "react-router-dom";
-import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
+import "./rootLayout.css";
 
 // Import your publishable key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
@@ -20,9 +19,6 @@ const RootLayout = () => {
             <span>Parv AI</span>
           </Link>
           <div className="user">
-            {/* <SignedOut>
-              <SignInButton />
-            </SignedOut> */}
             <SignedIn>
               <UserButton />
             </SignedIn>
