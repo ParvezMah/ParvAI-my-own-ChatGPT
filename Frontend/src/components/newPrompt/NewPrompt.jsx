@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import './newPrompt.css'
+import Upload from '../upload/Upload';
 const NewPrompt = () => {
 
     // For automatic scroll down updating chat.
@@ -16,9 +17,7 @@ const NewPrompt = () => {
             {/* For automatic scroll down updating chat. */}
             <div className="endChat" ref={endRef}></div>
             <div className="newForm">
-                <label htmlFor="file">
-                    <img src="../../../public/attachment.png" alt="" />
-                </label>
+                <Upload/>
                 <input id="file" type="file" multiple={false} hidden name="" />
                 <input type="text" placeholder="Ask me anything........."/>
                 <button>
